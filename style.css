@@ -1,0 +1,167 @@
+* {
+ font-family: Arial, Helvetica, sans-serif;
+ padding: 0;
+}
+
+.jumbotron {
+ padding: 5rem;
+ background-color: #e2edff;
+}
+
+#projects {
+ background-color: #e2edff;
+}
+
+#contact {
+ background-color: #fff;
+}
+
+#skillbar {
+ background-color: #e2edff;
+}
+.bar {
+ background-color: #e2edff;
+}
+
+.card {
+ background-color: #e2edff;
+}
+
+section {
+ padding-top: 2rem;
+}
+
+.card p {
+ margin: auto;
+ padding-top: 1rem;
+}
+
+.col h2 {
+ padding: 5rem;
+}
+
+.card-body {
+ position: absolute;
+ top: 0;
+ bottom: 0;
+ left: 0;
+ right: 0;
+ height: 100%;
+ width: 100%;
+ opacity: 0;
+ transition: 0.5s ease;
+ background-color: #008cba;
+}
+
+.container:hover .card-body {
+ opacity: 1;
+}
+
+.card-text {
+ color: white;
+ font-size: 20px;
+ position: absolute;
+ top: 50%;
+ left: 50%;
+ -webkit-transform: translate(-50%, -50%);
+ -ms-transform: translate(-50%, -50%);
+ transform: translate(-50%, -50%);
+ text-align: center;
+}
+
+.linked {
+ text-decoration: none;
+}
+
+#about h2 {
+ text-align: center;
+ padding-top: 3rem;
+}
+skills-area {
+ display: flex;
+ flex-direction: column;
+ padding: 0 20%;
+}
+
+.skill {
+ position: relative;
+ margin-bottom: 20px;
+}
+
+.skill-title {
+ font-size: 20px;
+ margin-bottom: 10px;
+ font-weight: bold;
+}
+
+.skill-bar {
+ width: 100%;
+ background: rgba(245, 243, 243, 0.6);
+ height: 40px;
+ z-index: -1;
+ border-radius: 100px;
+ position: absolute;
+}
+
+.skill-fill {
+ background: lightseagreen;
+ height: 40px;
+ border-radius: 100px;
+ display: flex;
+ justify-content: flex-end;
+ align-items: center;
+ padding-right: 30px;
+ overflow: hidden;
+}
+
+.skill-percent {
+ font-size: 30px;
+}
+
+.html {
+ animation: html 2s;
+ width: 80%;
+}
+
+.css {
+ animation: css 2s;
+ width: 60%;
+}
+
+.js {
+ animation: js 2s;
+ width: 30%;
+}
+
+@keyframes html {
+ from {
+  width: 0;
+ }
+ to {
+  width: 80%;
+ }
+}
+
+@keyframes css {
+ from {
+  width: 0;
+ }
+ to {
+  width: 60%;
+ }
+}
+
+@keyframes js {
+ from {
+  width: 0;
+ }
+ to {
+  width: 30%;
+ }
+}
+
+@media only screen and (max-width: 750px) {
+ .skills-area {
+  padding: 0 5%;
+ }
+}
