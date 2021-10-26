@@ -89,7 +89,7 @@ skills-area {
 }
 
 .skill-title {
- font-size: 20px;
+ font-size: 15px;
  margin-bottom: 10px;
  font-weight: bold;
 }
@@ -99,13 +99,13 @@ skills-area {
  background: rgba(245, 243, 243, 0.6);
  height: 40px;
  z-index: -1;
- border-radius: 100px;
+ border-radius: 10px;
  position: absolute;
 }
 
 .skill-fill {
  background: lightseagreen;
- height: 40px;
+ height: 30px;
  border-radius: 100px;
  display: flex;
  justify-content: flex-end;
@@ -115,7 +115,7 @@ skills-area {
 }
 
 .skill-percent {
- font-size: 30px;
+ font-size: 20px;
 }
 
 .html {
